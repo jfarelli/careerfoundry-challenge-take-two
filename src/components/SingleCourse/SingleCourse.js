@@ -1,9 +1,9 @@
 import './SingleCourse.css'
 
-const SingleCourse = () => {
+const SingleCourse = ({id, title}) => {
   return (
-    <div>
-      
+    <div className='single-course-container'>
+      <p className='single-course'>{title}</p>
     </div>
   )
 }
