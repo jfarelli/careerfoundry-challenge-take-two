@@ -1,5 +1,4 @@
 const fetchCourses = async () => {
-  // try {
     const response = await fetch(
       `https://private-e05942-courses22.apiary-mock.com/courses`
     );
@@ -11,10 +10,21 @@ const fetchCourses = async () => {
       const json = await response.json();
       return json;
     }
-  // } catch (error) {
-  //   console.log('ERROR!!!', error);
-  // }
 };
 
 
-export default fetchCourses;
+const fetchCourseDetails = async (path) => {
+    const response = await fetch(
+      `https://private-e05942-courses22.apiary-mock.com/courses/${path}`
+    );
+    if (!response.ok) {
+      const errorMessage = `The server responded with a ${response.status} error. Please try again.`
+      window.alert(errorMessage);
+      throw new Error(errorMessage);
+    } else {
+      const json = await response.json();
+      return json;
+    }
+};
+
+export { fetchCourses, fetchCourseDetails };
