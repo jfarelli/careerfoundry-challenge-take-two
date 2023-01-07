@@ -1,0 +1,55 @@
+button {
+  background-color: #29475f;
+  color: whitesmoke;
+  cursor: pointer;
+  box-shadow: 0 0 2px whitesmoke;
+  border: none;
+  padding: 0.5em 1.5em;
+  border-radius: 0.5em;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #96dde7;
+  color: #29475f;
+  border: none;
+  box-shadow: 0 0 5px whitesmoke;
+}
+
+.course-details-container {
+  /* background-image: url('../../images/alexa.jpeg'); */
+  color: whitesmoke
+}
+
+.course-description-text {
+  font-style: italic;
+  margin-top: -2%;
+}
+
+.career-foundry-website-link-text-container {
+  display: flex;
+  justify-content: center;
+}
+
+.career-foundry-website-link-text:hover {
+  cursor: pointer;
+}
+
+.website-anchor {
+  text-decoration: none;
+  border-bottom: 1px solid whitesmoke;
+  color: #96dde7;
+  font-weight: 600;
+  font-size: 1em;
+  transition: 0.2s;
+}
+
+.website-anchor:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #96dde7;
+  color: whitesmoke;
+}
+
+.career-foundry-span-text {
+  font-style: italic;
+}
