@@ -1,0 +1,23 @@
+.single-course-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.single-course {
+  color: whitesmoke;
+  background-color: #29475f;
+  color: #96dde7;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: 300;
+  transition: 0.3s;
+  cursor: pointer;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.single-course:hover {
+  background-color: #96dde7;
+  color: #29475f;
+}
