@@ -1,0 +1,11 @@
+header {
+  font-size: 1.75em;
+  font-style: italic;
+  background-color: #29475f;
+  color: whitesmoke;
+  border-bottom: 2px solid rgba(245, 245, 245, 0.3);
+}
+
+.foundry-text {
+  font-weight: 600;
+}

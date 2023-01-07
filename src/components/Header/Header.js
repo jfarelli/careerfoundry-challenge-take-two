@@ -2,9 +2,9 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <div>
-      
-    </div>
+    <header>
+      CAREER<span className='foundry-text'>FOUNDRY</span>
+    </header>
   )
 }
 
