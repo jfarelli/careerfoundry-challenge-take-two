@@ -1,8 +1,8 @@
 button {
-  background-color: #29475f;
   color: whitesmoke;
   cursor: pointer;
-  box-shadow: 0 0 2px whitesmoke;
+  box-shadow: 0 2px 4px whitesmoke;
+  background-color: #29475f;
   border: none;
   padding: 0.5em 1.5em;
   border-radius: 0.5em;
@@ -10,20 +10,19 @@ button {
 }
 
 button:hover {
-  background-color: #96dde7;
-  color: #29475f;
+  color: #96dde7;
   border: none;
-  box-shadow: 0 0 5px whitesmoke;
+  box-shadow: 0 2px 4px #96dde7;
 }
 
 .course-details-container {
-  /* background-image: url('../../images/alexa.jpeg'); */
-  color: whitesmoke
+  color: whitesmoke;
 }
 
 .course-description-text {
   font-style: italic;
-  margin-top: -2%;
+  margin-top: -1%;
+  margin-bottom: 2%;
 }
 
 .career-foundry-website-link-text-container {
@@ -41,7 +40,7 @@ button:hover {
   color: #96dde7;
   font-weight: 600;
   font-size: 1em;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .website-anchor:hover {

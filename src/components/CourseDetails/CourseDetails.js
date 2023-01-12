@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
 import './CourseDetails.css';
-// import alexa from '../../images/alexa.jpeg';
-// import fullStack from '../../images/full-stack.webp';
 import Loading from '../Loading/Loading';
 const dayjs = require('dayjs');
 
@@ -15,9 +13,6 @@ const CourseDetails = ({
     setSingleCourse([]);
     setSingleCourseDetails([]);
   };
-  console.log('SINGLECOURSE: ', singleCourse);
-  console.log('SINGLECOURSEDETAILS: ', singleCourseDetails);
-
   return (
     <div className="course-details-container">
       {!singleCourseDetails.start_dates ? (
@@ -30,7 +25,10 @@ const CourseDetails = ({
           </p>
           <div>
             <p>
-              <b>Price:</b>
+              <b>Price: </b>$
+              {singleCourseDetails.prices[0].amount.toLocaleString() +
+                ' ' +
+                singleCourseDetails.prices[0].currency.toUpperCase()}
             </p>
           </div>
           <div>
@@ -51,7 +49,7 @@ const CourseDetails = ({
               )}
             </p>
           </div>
-          <div className='career-foundry-website-link-text-container'>
+          <div className="career-foundry-website-link-text-container">
             <p className="career-foundry-website-link-text">
               <a
                 className="website-anchor"

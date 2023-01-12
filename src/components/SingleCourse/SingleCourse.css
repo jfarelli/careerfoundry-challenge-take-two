@@ -5,7 +5,6 @@
   justify-content: center;
 }
 .single-course {
-  color: whitesmoke;
   background-color: #29475f;
   color: #96dde7;
   padding: 5px;
@@ -18,6 +17,7 @@
 }
 
 .single-course:hover {
-  background-color: #96dde7;
   color: #29475f;
+  border-bottom: 1px solid #96dde7;
+  box-shadow: 0 2px 2px #96dde7;
 }
