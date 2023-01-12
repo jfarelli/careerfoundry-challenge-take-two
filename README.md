@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# CAREER*FOUNDRY* CODE CHALLENGE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Task: Build a simple landing page for our CareerFoundry courses
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+### Contributors: <a name="contributors"></a>
 
-### `npm start`
+Jordan Farelli: [LinkedIn](https://www.linkedin.com/in/jordan-farelli/) | [GitHub](https://github.com/jfarelli) | [Portfolio Website](https://portfolio-jfarelli.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Table of contents
+* [Contributors](#contributors)
+* [How To Use](#how)
+* [Features](#features)
+* [Future Iterations](#future)
+* [Technologies Used](#tech)
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### How To Use: <a name="how"></a>
 
-### `npm run build`
+**For the casual user:**
+* Please visit my app [CAREER*FOUNDRY* CODE-CHALLENGE WEBSITE](https://wow-factor.vercel.app/) and click around!
+* The user can click on one of the provided courses from CAREER*FOUNDRY* and then be led to a page that gives further details, such as Price, Next & Future Start Dates, and a link the CAREER*FOUNDRY* webpage giving even more details regarding the course chosen.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**For the developers out there:**
+* `Fork` this repository and `Clone` it down to your local machine
+* `cd` into the repository
+* Once in the repository, run `npm install`
+* After installation, run `npm start`
+* The app should now open up on your default browser with the URL `http://localhost:3000`
+* You're now ready to move through the app!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+*USER FLOW*
+* User Experience
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+https://user-images.githubusercontent.com/97558758/212161294-4caffa87-0270-4052-aae4-04da37a57c5e.mov
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Features: <a name="features"></a>
+**User:**
+* See a selection of courses offered by CAREER*FOUNDRY*.
+* Once a course is chosen, a details page is shown of the selected course.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Developer:**
+* Provide different React Router routes
+* Multiple API calls to display the correct data for each course.
+* 100% lighthouse accessibility score
+* A consistent, modular file structure
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Future Iterations: <a name="future"></a>
+* Create proper error handling for a bad URL.
+* Implement both Unit & E2E testing of all components.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
+### Technologies used:<br><a name="tech"></a>
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
