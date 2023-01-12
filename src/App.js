@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import { fetchCourses, fetchCourseDetails } from './apiCalls';
 import CourseContainer from './components/CourseContainer/CourseContainer';
@@ -19,7 +18,9 @@ const App = () => {
   const getSingleCourseDetails = (slugName) => {
     const singleCoursePick = courses.find((course) => course.slug === slugName);
     setSingleCourse(singleCoursePick);
-    fetchCourseDetails(singleCoursePick.slug).then((data) => setSingleCourseDetails(data));
+    fetchCourseDetails(singleCoursePick.slug).then((data) =>
+      setSingleCourseDetails(data)
+    );
   };
   return (
     <div className="App">
