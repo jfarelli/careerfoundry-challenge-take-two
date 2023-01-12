@@ -1,12 +1,7 @@
 # CAREER*FOUNDRY* CODE CHALLENGE
 
-## Task: Build a simple landing page for our CareerFoundry courses
 
-<br>
-
-### Contributors: <a name="contributors"></a>
-
-Jordan Farelli: [LinkedIn](https://www.linkedin.com/in/jordan-farelli/) | [GitHub](https://github.com/jfarelli) | [Portfolio Website](https://portfolio-jfarelli.vercel.app/)
+## Task: Build a simple landing page where a user can view CareerFoundry courses and see further information after selection.
 
 <br>
 
@@ -19,10 +14,16 @@ Jordan Farelli: [LinkedIn](https://www.linkedin.com/in/jordan-farelli/) | [GitHu
 
 <br>
 
+### Contributors: <a name="contributors"></a>
+
+Jordan Farelli: [LinkedIn](https://www.linkedin.com/in/jordan-farelli/) | [GitHub](https://github.com/jfarelli) | [Portfolio Website](https://portfolio-jfarelli.vercel.app/)
+
+<br>
+
 ### How To Use: <a name="how"></a>
 
 **For the casual user:**
-* Please visit my app [CAREER*FOUNDRY* CODE-CHALLENGE WEBSITE](https://wow-factor.vercel.app/) and click around!
+* Please visit my app [CAREER*FOUNDRY* CODE-CHALLENGE WEBSITE](https://careerfoundry-challenge-take-two.vercel.app/) and click around!
 * The user can click on one of the provided courses from CAREER*FOUNDRY* and then be led to a page that gives further details, such as Price, Next & Future Start Dates, and a link the CAREER*FOUNDRY* webpage giving even more details regarding the course chosen.
 
 <br>

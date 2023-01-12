@@ -12,7 +12,7 @@ button {
 button:hover {
   color: #96dde7;
   border: none;
-  box-shadow: 0 2px 4px #96dde7;
+  box-shadow: 0 4px 4px #96dde7;
 }
 
 .course-details-container {
